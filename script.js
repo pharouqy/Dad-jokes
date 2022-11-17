@@ -10,3 +10,5 @@ async function jokes() {
   const data = await response.json();
   joke[0].innerText = await data.joke;
 }
+
+jokes();
